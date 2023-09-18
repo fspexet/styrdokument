@@ -1,0 +1,309 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[swedish]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{subfigure}
+\usepackage{fullpage}
+\usepackage{hyperref}
+\usepackage{comment}
+\usepackage{pdfpages}
+\usepackage[T1]{fontenc}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5cm}
+
+\newcommand{\stadga}{
+\newcounter{a}
+\setcounter{a}{0}
+\newcounter{b}[a]
+\setcounter{b}{0}
+\newcounter{c}[b]
+\setcounter{c}{0}
+}
+
+\newcommand{\kapitel}[1]{
+\addtocounter{a}{1}
+\newpage
+\phantomsection
+\begin{center}
+\huge
+Kapitel \arabic{a}. #1 
+\addcontentsline{toc}{section}{Kapitel \arabic{a}. #1} \\
+\end{center}
+\setcounter{b}{0}
+\setcounter{c}{0}
+}
+
+\newcommand{\paragraf}[1]{
+\addtocounter{b}{1}
+\phantomsection
+\Large
+\hangindent0em
+§ \arabic{a}.\arabic{b}. #1 
+\addcontentsline{toc}{subsection}{§ \arabic{a}.\arabic{b}. #1} \\
+\setcounter{c}{0}
+}
+
+\newcommand{\underparagraf}[1]{
+\addtocounter{c}{1}
+\large
+\hangindent2em
+§ \arabic{a}.\arabic{b}.\arabic{c} #1
+\\ \\
+}
+
+
+\begin{document}
+\stadga
+\begin{center}
+\Huge
+Stadga för F-spexet\\
+Org. nr: 802429-6561
+\end{center}
+\normalsize
+Originalet skrivet vintern 2004; första upplagan 2004-12-07\\
+Baserad på Fysikteknologsektionens stadga och reglemente från 2002\\
+Andreas Hanning\\
+F-spexets första producent tillika dess upphovsman.\\
+ \\
+Uppdaterad 2005-11-07 av Patrik Fagerfjäll\\
+ \\
+Uppdaterad 2007-11-05 Klara Insulander Björk\\
+ \\
+Uppdaterad 2009-xx-xx Robin Person Söderholm\\
+ \\
+Uppdaterad 2012-10-10 av Sven Eriksson\\
+ \\
+Uppdaterad 2012-02-02 av Joakim Strandberg och Sven Eriksson\\
+ \\
+Uppdaterad 2015-04-22 av Jonatan Kilhamn\\
+ \\
+Uppdaterad 2015-09-05 av Jonatan Kilhamn\\
+\\
+Uppdaterad 2017-10-05 av Oscar Carlsson\\
+\\
+Uppdaterad 2019-09-24 av Oscar Carlsson\\
+\\
+Uppdaterad 2020-10-15 av Anna Romeborn\\
+\\
+Uppdaterad 2022-07-31 av Oskar Vallhagen\\
+\\
+Uppdaterad 2023-06-18 av Johan Ödesjö\\
+\\
+Uppdaterad 2023-09-12 av Johan Ödesjö\\
+\\
+% Uppdaterad 20??-??-?? Förnamn Efternamn\\
+% \\
+\newpage 
+\tableofcontents
+\kapitel{Allmänt}
+
+\paragraf{Ändamål}
+\underparagraf{F-spexet, benämnd i denna stadga som spexet, är en ideell förening vars syfte är att årligen verka för att sätta upp ett spex, och på så sätt sprida spexkulturen i Göteborgsområdet, alltmedan spexets medlemmar har roligt.}
+
+
+\paragraf{Verksamhetsår}
+\underparagraf{Spexets verksamhetsår löper från och med 1:a november till och med 31:a oktober påföljande år.}
+
+\kapitel{Intresseförening}
+
+\underparagraf{Detta kapitel gäller endast om även Fysikteknologsektionen betraktar spexet som en
+intresseförening.}
+\paragraf{Spexet är en intresseförening i Fysikteknologsektionen.}
+\underparagraf{Detta innebär att spexet följer bestämmelserna som finns i Fysikteknologsektionens
+stadga och reglemente gällande intresseföreningar.}
+\underparagraf{Vid konflikt med Fysikteknologsektionens stadga har Fysikteknologsektionens stadga
+företräde.}
+
+\paragraf{Godkännande av stadga}
+\underparagraf{Motioner och propositioner om stadgeändringar skall lämnas till
+Fysikteknologsektionens styrelse snarast efter första omröstning om ändringar bifallits.}
+
+\kapitel{Medlemmar}
+
+\paragraf{Medlemsregistrering}
+\underparagraf{Varje person som delar spexets målsättning kan bli medlem i föreningen.}
+\underparagraf{Intresse om medlemskap anmäls till spexets styrelse. Styrelsen beslutar om medlemskap under pågående verksamhet. Under inval till nästa verksamhetsår beslutar kollegiet om medlemskap.}
+
+\paragraf{Rättigheter}
+\underparagraf{Varje medlem har närvaro-, yttrande-, förslags- och rösträtt på spexmötet.}
+\underparagraf{Varje medlem är valbar till förtroendepost inom spexet, förutom då kapitel 2 i denna stadga hindrar detta.}
+\underparagraf{Medlem äger rätt att ta del av spexets alla handlingar och protokoll.}
+
+\paragraf{Skyldigheter}
+\underparagraf{Medlem i spexet har skyldighet att inte motverka spexets syfte.}
+\underparagraf{Medlem i spexet har skyldighet att göra det den själv ålägger sig göra åt spexet.}
+\underparagraf{Medlem i spexet har skyldighet att betala den årsavgift som fastslås på spexmötet.}
+
+\paragraf{Avstängning}
+\underparagraf{Medlem som inte uppfyller sina skyldigheter, eller på annat sätt skadar spexets syfte, kan av styrelsen stängas av från spexets dagliga verksamhet om över hälften av samtliga ledamöter är överens.}
+
+\paragraf{Medlemsförteckning}
+\underparagraf{Styrelsen skall förfoga över en uppdaterad lista över spexets medlemmar.}
+\underparagraf{Spexets medlemmar innefattar personer som blivit invalda till det aktiva verksamhetsåret av styrelsen, kollegiet eller spexmötet.}
+
+\kapitel{Organisation}
+
+\paragraf{Ansvarsförhållanden}
+\underparagraf{Spexmötet är spexets högsta beslutande organ.}
+\underparagraf{Spexmötet har till sitt förfogande styrelsen, valberedningen och kollegiet.}
+\underparagraf{Övrig verksamhet lyder under styrelsen.}
+
+\kapitel{Spexmötet}
+\paragraf{Sammanträden}
+\underparagraf{Spexmötet skall sammanträda minst en gång per verksamhetsår.}
+\underparagraf{Spexmötet sammanträder på kallelse av spexstyrelsen.}
+\underparagraf{Mellan 1:a april och 1:a november skall det ordinarie spexmötet sammanträda.}
+
+\paragraf{Utlysande}
+\underparagraf{Spexmötet utlyses av styrelsen då styrelseledamot eller minst en tredjedel av spexets medlemmar kräver detta. Spexmöte kan även utlysas med stöd av kapitel 2 i denna stadga.}
+\underparagraf{Ordinarie spexmöte skall utlysas minst 14 dygn i förväg genom att preliminär föredragningslista och kallelse anslås korrekt, se kapitel 11 i denna stadga. Slutlig föredragningslista skickas ut minst tre dygn före mötet. Inkomna motioner, propositioner, samt valberedningens nomineringar skall också anslås tre dygn före mötet.}
+\underparagraf{Extra spexmöte skall utlysas minst sju dygn i förväg genom att slutlig föredragningslista och kallelse skickas ut per e-mail. För mötet viktiga kungörelser skickas ut samtidigt. Alla motioner inkomna sedan det senaste spexmötet skall behandlas på mötet.}
+
+\paragraf{Åligganden}
+\underparagraf{Det åligger spexmötet att på dess ordinarie sammanträde välja en styrelse för nästföljande år.}
+\underparagraf{Det åligger spexmötet att på dess ordinarie sammanträde välja en förman för nästföljande år.}
+\underparagraf{Det åligger spexmötet att på dess ordinarie sammanträde välja minst en revisor för nästföljande år.}
+\underparagraf{Det åligger spexmötet att bestämma medlemsavgift för det kommande året.}
+
+\paragraf{Beslutsförighet}
+\underparagraf{Spexmötet är beslutsmässigt om mötet är utlyst enligt stadgans paragraf 5.2.2 eller 5.2.3.}
+
+\paragraf{Motioner}
+\underparagraf{Medlem som önskar ta upp frågor på föredragningslistan ska anmäla detta till styrelsen senast ett dygn innan den slutliga föredragningslistan skall anslås. Motioner anslås senast i samband med den slutliga föredragningslistan.}
+\underparagraf{Beslut om frågor som inte anslagits tillsammans med slutgiltig föredragningslista enligt stadgans paragraf 5.2.2 eller 5.2.3 kan endast ske om ingen närvarande yrkar på bordläggning.}
+
+\paragraf{Omröstning}
+\underparagraf{Omröstning sker först öppet. Om votering eller sluten omröstning begärs av någon sker omröstningen slutet. Vid personval gäller istället stadgans kapitel 7.}
+\underparagraf{Vid lika röstetal görs omröstningen om. Om det åter blir lika röstetal avgörs omröstningen genom godtycklig slumpgenerator.}
+\underparagraf{Röstning med fullmakt får ej ske. Endast fysiskt närvarande på mötet innehar rösträtt, förutom i de fall då spexmötet hålls digitalt.}
+\underparagraf{Ett spexmöte kan hållas digitalt om det framgår i kallelsen.}
+\underparagraf{I de fall då spexmötet hålls digitalt tillfaller rösträtt endast närvarande via det medium som anges i kallelsen.}
+
+\paragraf{Närvaro-, yttrande-, förslags- och rösträtt}
+\underparagraf{Närvaro-, yttrande-, förslags- och rösträtt tillkommer spexets medlemmar.}
+\underparagraf{Närvaro-, yttrande- och förslagsrätt tillkommer sektionens inspektor.}
+\underparagraf{Närvaro- och yttranderätt tillkommer adjungerade icke-medlemmar.}
+\underparagraf{Rösträtt kan endast tillkomma spexets medlemmar.}
+
+\paragraf{Mötesprotokoll}
+\underparagraf{Spexmötesprotokoll skall justeras av två justeringspersoner utvalda av spexmötet. Justerat protokoll skall anslås senast 21 dygn efter spexmötet.}
+
+\kapitel{Kollegiet}
+
+\paragraf{Ändamål}
+\underparagraf{Kollegiet svarar för kontinuiteten i spexet genom att tillsätta spexets poster som inte väljs in av spexmötet.}
+
+\paragraf{Sammansättning}
+\underparagraf{Kollegiet ska innehålla minst en registrerad medlem.}
+\underparagraf{Kollegiets medlemmar väljs av spexmötet.}
+
+\paragraf{Ansvar}
+\underparagraf{Kollegiet bör tillsätta tillräckligt många poster för att spexet skall kunna sätta upp ett spex.}
+
+\kapitel{Personval}
+\paragraf{Personval}
+\underparagraf{Personval skall ske med sluten votering. Finns ej fler personer på förslag än vad som kan väljas, kan personval ske öppet.}
+\underparagraf{Om det, i en omröstning mellan flera kandidater, blir lika röstetal mellan några av dem skall omröstningen göras om mellan enbart dessa kandidater. Detta gäller endast
+ifall utfallet blir annorlunda ifall de inte har lika röstetal.}
+
+\paragraf{Fri nominering}
+\underparagraf{Alla förslag till förtroendeposter och styrelseposter skall vara valberedningen tillhanda senast ett dygn före spexmötet.}
+\underparagraf{Om det saknas nominerade till en förtroendepost får fri nominering ske under mötet.}
+
+\paragraf{Fyllnadsval}
+\underparagraf{Vid fyllnadsval nominerar styrelsen till vakant post. Spexmötet äger sedan rätt att tillsätta den person de finner mest lämplig.}
+
+\kapitel{Styrelsen}
+\paragraf{Befogenheter}
+\underparagraf{Styrelsen ansvarar för spexets verksamhet.}
+\underparagraf{Ordförande samt kassör tecknar spexets firma var för sig.}
+
+\paragraf{Sammansättning}
+\underparagraf{Styrelsen består av ordförande, kassör samt noll till fyra övriga ledamöter.}
+\underparagraf{Ordförande samt kassör är förtroendeposter.}
+
+\paragraf{Ansvar}
+\underparagraf{Styrelsen ansvarar inför spexmötet för spexets verksamhet och ekonomi.}
+\underparagraf{Det åligger styrelsen att senast 1:a december fastställa en budget samt presentera denna för spexet.}
+
+\paragraf{Styrelsemöten}
+\underparagraf{Styrelsen sammanträder på kallelse av ordföranden.}
+\underparagraf{Styrelsen är beslutsmässig om ordföranden eller kassören och sammanlagt minst två ledamöter är närvarande.}
+
+\paragraf{Avsättande}
+\underparagraf{För att avsätta styrelsen krävs att ärendet anslås tillsammans med den slutgiltiga föredragningslistan till ett spexmöte, samt att minst fyra femtedelar av de närvarande vid spexmötet är ense.}
+\underparagraf{Om styrelsen avsätts skall en interimstyrelse väljas på samma spexmöte. Det åläggs interimstyrelsen att kalla till nytt spexmöte där ny ordinarie styrelse skall väljas. Detta spexmöte skall hållas inom 21 dygn.}
+\underparagraf{Interimstyrelsen övertar ordinarie styrelsens befogenheter och skyldigheter tills en ny ordinarie styrelse är vald. Interimstyrelsen får i övrigt endast handha löpande ärenden.}
+
+\kapitel{Valberedningen}
+
+\paragraf{Sammansättning}
+\underparagraf{Valberedningen ska innehålla minst en registrerad medlem.}
+\underparagraf{Valberedningens medlemmar väljs av spexmötet.}
+
+\paragraf{Ansvar}
+\underparagraf{Valberedningen ansvarar för samtliga nomineringar till förtroendeposter och samtliga styrelseposter i spexet.}
+\underparagraf{Det åligger valberedningen att meddela spexet om alla sökande till förtroendeposter och samtliga styrelseposter tillsammans med deras eventuella nominering. Det åligger även valberedningen att meddela de sökande om tid och plats för spexmöte.}
+
+\kapitel{Övriga poster}
+
+\paragraf{Förman}
+\underparagraf{Förman ansvarar för den inre kommunikationen samt leder spexets dagliga arbete.}
+\underparagraf{Förman är en förtroendepost och väljes av spexmötet.}
+\underparagraf{Förman kan även vara medlem av styrelsen.}
+
+\paragraf{Spexgrupper}
+\underparagraf{Alla tillsatta poster som är inbördes lika utgör en spexgrupp och ska välja en gruppledare.}
+\underparagraf{Gruppledarens uppgift är att sköta kommunikationen med övriga grupper, förman och styrelsen.}
+\underparagraf{På kallelse av förman bör gruppledarna delta i gruppledarmöten. Gruppledarmöten hålls då det anses lämpligt.}
+\underparagraf{Om gruppledaren inte kan delta på gruppledarmötet, så kan gruppledaren delegera
+deltagandet till annan gruppmedlem eller ursäktas från gruppledarmötet av förman.}
+
+
+\kapitel{Anslag av handlingar}
+\paragraf{Meddelanden och beslut}
+\underparagraf{Meddelanden och beslut är behörigt anslagna om de meddelats alla spexets medlemmar, förslagsvis per e-mail.}
+
+\kapitel{Verksamhetsberättelse, revision och ansvarsfrihet}
+\paragraf{Verksamhetsberättelse}
+\underparagraf{Verksamhetsberättelse för föregående verksamhetsår skall beredas av berörd spexstyrelse och framföras på spexmötet.}
+
+\paragraf{Revisor}
+\underparagraf{Spexets revisorer ska för det år dessa valdes kontinuerligt granska spexets ekonomi och verksamhet. Revisorerna ska även granska den färdiga verksamhetsberättelsen samt den färdiga redovisningen av ekonomin.}
+\underparagraf{Revisorerna kan inte vara en del av styrelsen eller inneha en annan förtroendevald post, samt får inte ha varit en del av styrelsen eller haft en annan förtroendevald post förutom revisor föregående verksamhetsår.}
+\underparagraf{Revisorn är en förtroendepost och väljes av spexmötet.}
+\underparagraf{Revisorn bör inte göra stora inköp för spexets räkning.}
+
+\paragraf{Ansvarsfrihet}
+\underparagraf{Ansvarsfrihet är beviljad berörda personer då spexmötet har beslutat om detta.}
+
+\kapitel{Spexets upplösning}
+\paragraf{Spexets upplösning}
+\underparagraf{Spexmötet kan besluta om spexets upplösning.}
+\underparagraf{Spexet upplöses genom beslut på två på varandra följande spexmöten då minst fyra femtedelar av spexets för tillfället registrerade medlemmar måste vara om beslutet ense.}
+
+\paragraf{Tillgångar}
+\underparagraf{Om spexet upplöses skall spexets samtliga tillgångar, som framgår av upprättad balansräkning i och med upplösning, förvaltas av Fysikteknologsektionen tills dess att ett nytt spex bildats vid sektionen.}
+%\includepdf{Vidimering.pdf}
+
+%\begin{comment}
+\kapitel{Styrdokument}
+
+\underparagraf{Förutom denna stadga finns även ett reglemente.}
+
+\paragraf{Originalstadgar}
+\underparagraf{Stadgans original handhas av fysikteknologsektionens inspektor. En vidimerad kopia av den senaste reviderade upplagan handhas av fysikteknologsektionens ordförande.}
+
+\paragraf{Stadgeändringar}
+\underparagraf{Ändringar eller tillägg till denna stadga kan endast göras om förslaget godkänns av två på varandra följande spexmöten och tre fjärdedelar av de närvarande är om beslutet ense. Slutgiltig lydelse skall utformas senast under första mötet och skickas ut med nästa kallelse.}
+
+\paragraf{Reglementesändring}
+\underparagraf{Ändringar eller tillägg till spexets reglemente och dess bilagor kan endast göras om förslaget godkänns av spexmötet och två tredjedelar av de närvarande är om beslutet ense.}
+
+\paragraf{Tolkningstvister}
+\underparagraf{Uppstår tolkningstvister om dessa stadgars tolkning skall frågan hänskjutas till sektionens inspektor.}
+\underparagraf{Vid konflikt mellan stadga och reglemente har stadgan företräde.}
+%\end{comment}
+\end{document}

@@ -1,0 +1,206 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[swedish]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{subfigure}
+\usepackage{fullpage}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5cm}
+
+\newcommand{\stadga}{
+\newcounter{a}
+\setcounter{a}{0}
+\newcounter{b}[a]
+\setcounter{b}{0}
+\newcounter{c}[b]
+\setcounter{c}{0}
+}
+
+\newcommand{\kapitel}[1]{
+\addtocounter{a}{1}
+\newpage
+\begin{center}
+\phantomsection
+\huge
+Kapitel \arabic{a}. #1
+\addcontentsline{toc}{section}{Kapitel \arabic{a}. #1} \\
+\end{center}
+\setcounter{b}{0}
+\setcounter{c}{0}
+}
+
+\newcommand{\paragraf}[1]{
+\addtocounter{b}{1}
+\phantomsection
+\Large
+\hangindent0em
+§ \arabic{a}.\arabic{b}. #1
+\addcontentsline{toc}{subsection}{§ \arabic{a}.\arabic{b}. #1} \\
+\setcounter{c}{0}
+}
+
+\newcommand{\underparagraf}[1]{
+\addtocounter{c}{1}
+\large
+\hangindent2em
+§ \arabic{a}.\arabic{b}.\arabic{c} #1
+\\ \\
+}
+
+
+\begin{document}
+\stadga
+\begin{center}
+\Huge
+Reglemente för F-spexet\\
+Org. nr: 802429-6561
+\end{center}
+\normalsize
+Originalet skrivet sommaren 2020; första upplagan 2020-10-01\\
+Baserad på Fysikteknologsektionens stadga och reglemente från 2002\\
+Beatriz Bento Hansson, Ebba Grönfors, Anna Romeborn\\
+ \\
+Uppdaterad 2022-08-03 av Oskar Vallhagen\\
+\\
+Uppdaterad 2023-06-18 av Johan Ödesjö\\
+\\
+Uppdaterad 2023-09-12 av Johan Ödesjö\\
+\\
+% Uppdaterad 20??-??-?? Förnamn Efternamn\\
+% \\
+\newpage 
+\tableofcontents
+\kapitel{Allmänt}
+\kapitel{Medlemmar}
+\kapitel{Spexmötet}
+\kapitel{Kollegium, valberedning och personval}
+
+\paragraf{Invalsperiod}
+\underparagraf{Varje kollegium ansvarar för inval under en invalsperiod som pågår från inval av kollegiet fram till en kalendervecka efter att de har meddelat Styret om sitt beslut.}
+\underparagraf{Efter invalsperioden kan poster fyllnadsväljas av Styret. De behöver inte explicit ha vakantsatts för detta.}
+
+\paragraf{Valberedningen}
+\underparagraf{Valberedningen nominerar kandidater till poster enligt stadgarna.}
+\underparagraf{En medlem i valberedningen kan inte nomineras till en styrelse- eller förtroendepost.}
+
+\paragraf{Manuskollegiet}
+\underparagraf{Manuskollegiet väljer in en manusgrupp för det kommande verksamhetsåret minst fyra månader före verksamhetsårets start.}
+\underparagraf{En medlem i manuskollegiet kan inte väljas in till manusgruppen under invalsperioden.}
+
+\paragraf{Skådespelarkollegiet}
+\underparagraf{Skådespelarkollegiet väljer in medlemmar till ensemblen nära verksamhetsårets början. }
+\underparagraf{En medlem i skådespelarkollegiet kan inte väljas in till ensemblen under invalsperioden.}
+%Skådespelarkollegiet kan i samråd med spexiga kollegiet även välja in en regissör.
+
+\paragraf{Orkesterkollegiet}
+\underparagraf{Orkesterkollegiet väljer in medlemmar till orkestern nära verksamhetsårets början.}
+%En medlem i orkesterkollegiet kan inte välja in sig själv till att spela ett specifikt instrument i orkestern om det medför att en annan sökande till samma instrument inte får posten.
+\underparagraf{En medlem i orkesterkollegiet kan inte väljas in till orkestern under invalsperioden.}
+
+\paragraf{Spexiga kollegiet}
+\underparagraf{Spexiga kollegiet väljer in medlemmar till övriga spexgrupper nära verksamhetsårets början.}
+% NÅGONTING (som är för kontroversiellt för den första versionen) SKA STÅ HÄR OM ATT VARA SNÄLL
+% Något i stil med:
+% Medlemmar i spexiga kollegiet som även söker en post som väljs av spexiga kollegiet ska i första hand ta hänsyn till övriga sökandes vilja.
+
+%Spexiga kollegiet kan i samråd med skådespelarkollegiet även välja in en regissör.
+\paragraf{Ändringar av kollegier}
+\underparagraf{Om spexmötet bedömer det lämpligt kan de välja in en annan uppsättning kollegier än de som beskrivs ovan.}
+\underparagraf{Spexmötet kan omfördela vilket kollegium som ansvarar för att välja in vilka poster.}
+\underparagraf{Spexmötet kan ge kollegierna tillstånd att själva omfördela vilket kollegium som ansvarar för att välja in en specifik post.}
+
+\paragraf{Personval}
+
+\kapitel{Poster och spexgrupper}
+
+%\paragraf{Förteckning över poster}
+
+\paragraf{Styret}
+\underparagraf{Styret består av styrelsen och förman tillsammans. Styrelsens poster definieras i stadgan.}
+%\underparagraf{Ordförande}
+%\underparagraf{Kassör}
+%\underparagraf{Ledamöter}
+%\paragraf{Förman}
+%\underparagraf{Förmans ansvar är definierat i stadgan.}
+
+\paragraf{Revisor}
+
+\paragraf{Ensemblen}
+\underparagraf{Ensemblen består av 6-7 personer. Spexmötet beslutar i samråd med Manusgruppen antalet personer i Ensemblen innan Skådespelarkollegiet väljs in.}
+
+\paragraf{Koreograf}
+\underparagraf{Koreograferna är 0-3 personer.}
+
+\paragraf{Kostym}
+\underparagraf{Kostymgruppen består av minst 2 personer.}
+
+\paragraf{Kuplettsamordnare}
+\underparagraf{Kuplettsamordnaren är 1-2 personer.}
+
+\paragraf{Ljud och ljus}
+\underparagraf{Ljud- och ljusgruppen består av 2-4 personer.}
+
+\paragraf{Manus}
+\underparagraf{Manusgruppen består av 2-5 personer.}
+
+\paragraf{Mat}
+\underparagraf{Matgruppen består av minst 3 personer.}
+
+\paragraf{Media}
+\underparagraf{Mediagruppen består av minst 3 personer.}
+
+\paragraf{MåBra}
+\underparagraf{MåBragruppen består av minst 2 personer.}
+
+\paragraf{Orkestern}
+\underparagraf{Orkestern består av 4-13 personer.}
+
+\paragraf{Producent}
+\underparagraf{Producenten är 1 person.}
+
+\paragraf{Regissör}
+\underparagraf{Regissörerna är 1-3 personer.}%, varav max 2 inte tillhör ensemblen.}
+
+\paragraf{Scen}
+\underparagraf{Scengruppen består av minst 3 personer.}
+
+\paragraf{Smink}
+\underparagraf{Sminkgruppen består av 1-3 personer.}
+
+\paragraf{Tillfälliga poster}
+\underparagraf{Om spexiga kollegiet bedömer det lämpligt kan de i samråd med Styret införa ytterligare poster för ett enskilt verksamhetsår.}
+\underparagraf{Antalet medlemmar i en spexgrupp kan frångås om kollegiet bedömer det lämpligt i samråd med Styret.}
+
+\paragraf{Dubbelpostande}
+\underparagraf{En och samma medlem kan inneha flera olika poster i spexet under samma verksamhetsår.}
+
+\kapitel{Ekonomi}
+
+%\paragraf{Man får INTE vara en feffe.}
+
+\kapitel{Uthyrningsregler}
+
+%\paragraf{Porslin}
+%\underparagraf{Spexets porslin kan hyras ut inom och utanför F-sektionen.}
+%\underparagraf{Styret ansvarar för uthyrning av porslin.}
+
+%\underparagraf{Inom sektionen kostar det 100 kr att hyra porslin till ett normalstort evenemang.}
+
+%\underparagraf{Utanför sektionen kostar det 200 kr att hyra porslin till ett normalstort evenemang.}
+
+%\underparagraf{Priset för uthyrning kan anpassas om evenemanget anses vara mycket stort eller mycket litet.}
+%\paragraf{Mittenburen}
+
+\paragraf{Utrustning och rekvisita}
+\underparagraf{Styret ansvarar för uthyrning och utlåning av spexets utrustning och rekvisita.}
+\underparagraf{Rekvisita som används till den rådande spexproduktionen hyrs eller lånas inte ut om inte alla föreställningar redan har varit. }
+
+%Någon i Styret ska vara medveten om utlånet och besluta om ev. ersättning om något går sönder eller försvinner.
+
+
+\end{document}
